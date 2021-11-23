@@ -14,8 +14,8 @@ const App = () => {
 const Wrapper = styled.main`
   width: 80%;
   margin: 0 auto;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  flex-direction: column;
 `;
 
 export default App;

@@ -6,7 +6,7 @@ const TableAction = (props) => {
     <>
       <Button
         type={props.type}
-        onClick={props.handleClick}
+        onClick={props.onClick}
         variant={props.variant}
         className={`myButton ${props.color}`}
       >
