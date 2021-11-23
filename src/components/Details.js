@@ -40,6 +40,11 @@ const Card = styled.div`
   span {
     font-weight: bold;
   }
+
+  .btn {
+    background: #5bc0de;
+    color: #fff;
+  }
 `;
 
 export default Details;

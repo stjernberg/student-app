@@ -11,6 +11,7 @@ const TableHeader = () => {
         <th>Birthdate</th>
         <th>Country</th>
         <th>City</th>
+        <th>Action</th>
       </tr>
     </thead>
   );
