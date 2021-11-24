@@ -67,12 +67,12 @@ const DataTable = () => {
     );
   };
 
-  const Details = (props) => {
+  const Details = () => {
     return (
       <Card>
         <h2>Student info</h2>
         <p>
-          <span>Name:</span> {student.firstName} {props.lastName}
+          <span>Name:</span> {student.firstName} {student.lastName}
         </p>
         <p>
           <span>Age:</span> {student.age}
