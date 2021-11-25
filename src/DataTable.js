@@ -34,8 +34,9 @@ const DataTable = () => {
   };
 
   const TableRow = () => {
-    const studentDetails = (studentId) => {
-      setStudent(studentList.find(({ id }) => id === studentId));
+    const studentDetails = (student) => {
+      // setStudent(studentList.find(({ id }) => id === studentId));
+      setStudent(student);
       setShowDetails(!showDetails);
     };
 
@@ -56,7 +57,8 @@ const DataTable = () => {
                   text="Details"
                   variant="info"
                   onClick={() => {
-                    studentDetails(person.id);
+                    // studentDetails(person.id);
+                    studentDetails(person);
                   }}
                 />
               </td>
@@ -95,6 +97,7 @@ const DataTable = () => {
   return (
     <Wrapper>
       <Table striped bordered hover>
+        y
         <TableHeader />
         <TableRow />
       </Table>
